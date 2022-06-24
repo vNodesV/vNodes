@@ -1,2 +1,2 @@
 #!/bin/bash/
-cp $HOME/vNodes/src/main.sh $HOME/vnodes && chomod +x $HOME/vnodes && cp /usr/local/bin && vnodes
+cp $HOME/vNodes/src/main.sh $HOME/vnodes && chmod +x $HOME/vnodes && cp /usr/local/bin && vnodes
