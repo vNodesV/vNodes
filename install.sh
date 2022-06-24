@@ -1,2 +1,2 @@
 #!/bin/bash/
-touch deploy && echo /src/main.sh > deploy 2>/dev/null && chmod +x deploy && deploy
+cp $HOME/vNodes/src/main.sh $HOME/vnodes && chomod +x $HOME/vnodes && cp /usr/local/bin && vnodes
