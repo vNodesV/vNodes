@@ -9,36 +9,49 @@ GO v1.18.3
 Sifnode v0.13.3
 Cosmovisor v1.0.0
 
+Tested on:<br>Ubuntu 18+<br><br>To be installed:<br>
+GIT<br>
+GCC<br>
+Make<br>
+jq<br>
+GO v1.18.3<br>
+Sifnode v0.13.3<br>
+Cosmovisor v1.0.0<br>
 
-Process:
-  > Update and Upgrade OS.
-  > Check for GIT, GCC, Make and jq.
-  > Install missing, if any. 
-  > Check for previous version of GO
-    > remove older version from $HOME and/or /usr/local/bin/
-  > Download and Install go 1.18.3.linux-amd64 in $HOME
-    > the version can be modified at the top of /src/main.sh
-    > Sys link $HOME/go/bin/go /usr/local/bin/go
-  > Deploying Sifnoded v0.13.3.
-  > Deploying Cosmovisor 1.0.0
-  > Export necessery system variables to var.var
-  > Sys link $HOME/.sifnoded/cosmovisor/genesis/bin/sifnoded /usr/local/bin/sifnoded
-  > Final test of sifnoded version
+
+
+
+Process: <br>
+   Update and Upgrade OS. <br>
+   Check for GIT, GCC, Make and jq.<br>
+   Install missing, if any. <br>
+   Check for previous version of GO<<br>
+    <>  remove older version from $HOME and/or /usr/local/bin/<<br>
+   Download and Install go 1.18.3.linux-amd64 in $HOME<<br>
+       <>  the version can be modified at the top of /src/main.sh<<br>
+    Sys link $HOME/go/bin/go /usr/local/bin/go<br>
+   Deploying Sifnoded v0.13.3.<br>
+   Deploying Cosmovisor 1.0.0<br>
+   Export necessery system variables to var.var<br>
+   Sys link $HOME/.sifnoded/cosmovisor/genesis/bin/sifnoded /usr/local/bin/sifnoded<br>
+   Final test of sifnoded version<br>
   
 At this point, everything is on place and Sinode is ready for setup. 
  
 Note: Self-thought. This is my first full script and I welcome any constructive feedback. @dSebster or dsebster@vnodes.cloud
 
 INSTRUCTIONS:
-  > Download GIT from your home folder
-    git clone https://github.com/dSebster/vNodes.git
-  > Move to the vNodes folder
-    cd vNodes
-  > Run the install and deployment script
-    bash install.sh
-  > Enter password for sudo
-  > You will need to check and approve services restart along the way. 
-    > hit OK and restart whatever services are already check off.
+  > Download GIT from your home folder<br>
+    git clone https://github.com/dSebster/vNodes.git<br>
+  > Move to the vNodes folder<br>
+    cd vNodes<br>
+  > Run the install and deployment script<br>
+    bash install.sh<br>
+  > Enter password for sudo<br>
+  > You will need to check and approve services restart along the way. <br>
+    > hit OK and restart whatever services are already check off.<br>
+  > Source the variables<br>
+      source var.var<br>
   
   that's it. Now you can configure your node. 
   
