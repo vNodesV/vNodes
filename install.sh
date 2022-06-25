@@ -1,5 +1,5 @@
 #!/bin/bash/
-sudo cp $HOME/vNodes/src/main.sh /usr/local/bin/deploy && 
+cp $HOME/vNodes/src/main.sh /usr/local/bin/deploy && 
 chmod +x /usr/local/bin/deploy && 
 cd $HOME && 
 echo "Ready to install. "
