@@ -5,4 +5,5 @@ sudo chown $USER: /usr/local/bin/deploy &&
 cd $HOME && 
 echo "Ready to install. "
 read -p "Hit Enter When Ready or CTRL-C to Cancel."
-deploy
+deploy &&
+echo "Remember: run 'source var.var'"
