@@ -38,8 +38,8 @@ Note: Self-thought. This is my first full script and I welcome any constructive 
 <br>
 
 ## INSTRUCTIONS:
-Download GIT from your home folder<br>
-```git clone https://github.com/dSebster/vNodes.git``` <br>
+Download GIT from your home folder and run the install.sh script:<br>
+````git clone https://github.com/dSebster/vNodes.git && bash vNodes/install.sh```` <br>
 Move to the vNodes folder<br>
 ```cd vNodes```<br>
 Run the install and deployment script<br>
