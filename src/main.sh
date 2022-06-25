@@ -42,8 +42,8 @@ function tarf() {
 }
 
 function pathlock() {
-  if go version; then
-    echo ""
+  if go version 2>/dev/null; then
+    echo " All is well for GO. Moving on"
   else
     echo "*******************************"
     echo "running gopath"
