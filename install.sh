@@ -1,2 +1,6 @@
 #!/bin/bash/
-cp $HOME/vNodes/src/main.sh $HOME/vnodes && chmod +x $HOME/vnodes && sudo mv $HOME/vnodes /usr/local/bin && cd $HOME && vnodes
+sudo cp $HOME/vNodes/src/main.sh /usr/local/bin/deploy && 
+chmod +x /usr/local/bin/deploy && 
+cd $HOME && 
+echo "Ready to install. "
+read -p "Hit Enter When Ready or CTRL-C to Cancel."
