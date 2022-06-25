@@ -38,17 +38,18 @@ Note: Self-thought. This is my first full script and I welcome any constructive 
 <br>
 
 ## INSTRUCTIONS:
-Download GIT from your home folder and run the install.sh script:<br>
-````git clone https://github.com/dSebster/vNodes.git && bash vNodes/install.sh```` <br>
-Move to the vNodes folder<br>
-```cd vNodes```<br>
-Run the install and deployment script<br>
-```bash install.sh```<br>
-Enter password for sudo<br>
-You will need to check and approve services restart along the way. <br>
-hit OK and restart whatever services are already checked off.<br>
-Source the variables<br>
-```source var.var```<br>
+- Download GIT from your home folder and run the install.sh script:<br>
+   - ````git clone https://github.com/dSebster/vNodes.git && bash vNodes/install.sh```` <br>
+- Move to the vNodes folder<br>
+   - ```cd vNodes```<br>
+- Run the install and deployment script<br>
+   - ```bash install.sh```<br>
+- Enter password for sudo<br>
+- You will need to check and approve services restart along the way. <br>
+   - hit OK and restart whatever services are already checked off.<br>
+
+- Once the installation is finish, ource the variables:<br>
+   - ````source var.var````<br>
   
   that's it. Now you can configure your node. 
   
